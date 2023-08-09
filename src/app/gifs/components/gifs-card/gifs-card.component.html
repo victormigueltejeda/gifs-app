@@ -2,16 +2,10 @@
   <!--Crear imagen-->
 
 
-  <shared-lazy-images></shared-lazy-images>
+  <shared-lazy-images [url]="gif.images.downsized_medium.url" [alt]="gif.title"/>
 
- <!--<img 
-   [src]="gif.images.downsized_medium.url" 
-   [alt]="gif.title" 
-   class="card-img-top"
-  />--> 
 
   <div class="card-body text-white">
     <p class="card-tex">{{gif.title}}</p>
-
   </div>
 </div>
